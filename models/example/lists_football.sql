@@ -1,7 +1,7 @@
 {{ config (
     materialized="table"
 )}}
-select * from(
+select * from
 
 with __dbt__cte__lists_football_ab1 as (
 
