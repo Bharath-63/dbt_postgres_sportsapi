@@ -1,8 +1,7 @@
 {{ config (
     materialized="table"
 )}}
-
-select * from 
+ 
 
 with __dbt__cte__lists_ab1 as (
 
@@ -67,4 +66,5 @@ from __dbt__cte__lists_ab3
 -- lists from "aumdwmdk".public._airbyte_raw_lists
 where 1 = 1
 
-  );
+  )
+select * from aumdwmdk.public
