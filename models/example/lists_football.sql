@@ -102,7 +102,4 @@ select
     _airbyte_football_hashid
 from __dbt__cte__lists_football_ab3
 -- football at lists/football from "aumdwmdk".public."lists"
-where 1 = 1
-
-  )
-  select * from aumdwmdk.public
+where 1 = 1;
