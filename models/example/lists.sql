@@ -64,4 +64,4 @@ select
     _airbyte_lists_hashid
 from __dbt__cte__lists_ab3
 -- lists from "aumdwmdk".public._airbyte_raw_lists
-where 1 = 1;
+where 1 = 1
