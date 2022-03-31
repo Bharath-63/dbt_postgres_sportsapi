@@ -2,7 +2,7 @@
     materialized="table"
 )}}
 
-select * from (
+select * from 
 
 with __dbt__cte__lists_ab1 as (
 
